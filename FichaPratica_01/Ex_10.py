@@ -1,7 +1,7 @@
-num1 = int(input("Digite o primeiro número: "))
-num2 = int(input("Digite o segundo número: "))
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
 
-resp = input("Qual a operação a ser realizada? ")
+resp = input("Qual a operação a ser realizada? [+,-,*,/] ")
 
 if resp == '+':
     print (f"Resultado = {num1 + num2}")
